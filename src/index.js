@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const bodyParser = require("body-parser");
 
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
   console.log("Database connected");
 });
 
