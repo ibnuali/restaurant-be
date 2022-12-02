@@ -13,6 +13,26 @@ exports.getAll = (Model) => {
         });
     })
 }
+
+exports.bulkCreate = (Model) => {
+    return catchAsync(async (req, res, next) => {
+        Promise.all(req.body.map(async (item) => {
+            const data = await Model.create(item);
+            return data;
+        })).then((data) => {
+            res.status(200).json({
+                status: 'success',
+                data: data
+            });
+        }
+        ).catch((err) => {
+            return next(new AppError(err.message, 404).sendError(res));
+        }
+        );
+
+    })
+}
+
 exports.getOne = (Model) => {
     return catchAsync(async (req, res, next) => {
         const data = await Model.findOne({ where: { id: req.params.id } });

@@ -9,6 +9,10 @@ router.route('/').
     post(foodController.createFood)
     .all(methodNotAllowed);
 
+router.route('/bulk').
+    post(foodController.bulkCreateFood)
+    .all(methodNotAllowed);
+
 router.route('/:id')
     .get(foodController.getFood)
     .put(foodController.updateFood)

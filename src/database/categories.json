@@ -1,0 +1,28 @@
+[
+    [
+        {
+            "name":"Rice",
+            "image":"https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cd453a69-3120-4b62-b0cd-8c6ee7655e8e_Go-Biz_20220619_100957.jpeg"
+        },
+        {
+            "name":"Beverages",
+            "image":"https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8e133f59-d50f-41b0-bfa7-1a61a074cc8b_tag-image_1608202870005.jpg"
+        },
+        {
+            "name":"Noodles",
+            "image":"https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e709853b-1a90-4d64-90b4-1f547334685d_tag-image_1608203031931.jpg"
+        },
+        {
+            "name":"Coffee",
+            "image":"https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6a782354-f3af-4da5-8550-48e8572b3321_tag-image_1608203089151.jpg"
+        },
+        {
+            "name":"Pizza",
+            "image":"https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5b1a9111-fc01-4938-b9e6-1991ecc3fd18_tag-image_1608203062369.jpg"
+        },
+        {
+            "name":"Snacks",
+            "image":"https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5e3778c1-001f-4096-8c66-73b075f46f42_Go-Biz_20210812_173917.jpeg"
+        }
+    ]
+]

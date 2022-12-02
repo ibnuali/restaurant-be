@@ -51,6 +51,7 @@ const getFoodByCategory = catchAsync(async (req, res, next) => {
 module.exports = {
     getAllFood: service.getAll(Food),
     // getFood: service.getOne(Food),
+    bulkCreateFood: service.bulkCreate(Food),
     getFood,
     getFoodByCategory,
     createFood: service.createOne(Food),

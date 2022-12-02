@@ -9,8 +9,12 @@ router.route('/').
     post(categoriesController.createCategory)
     .all(methodNotAllowed);
 
+router.route('/bulk').
+    post(categoriesController.bulkCreateCategory)
+    .all(methodNotAllowed);
+
 router.route('/:id')
-    .get(categoriesController.getAllCategories)
+    .get(categoriesController.getCategory)
     .put(categoriesController.updateCategory)
     .delete(categoriesController.deleteCategory)
     .all(methodNotAllowed);
